@@ -7,6 +7,10 @@ Deep Neural Networks (DNNs) have revolutionized a multitude of machine learning 
 - **Learning Component**: Utilizes standard DNNs for semantic predictions, e.g., recognizing if an input image contains something furry.
 - **Reasoning Component**: Employs probabilistic graphical models like Markov Logic Networks (MLN) to apply domain-specific knowledge and logic reasoning to the learning process.
 
+A new version that only using CLIP for reasoning instead of retraining multiple learning sensors is available here: https://github.com/javyduck/CARE_CLIP
+
+It is faster and universal, the code is also more concise.
+
 ## Repository Contents
 
 - `code/`: Contains the source code for our experiments.
@@ -19,6 +23,8 @@ Deep Neural Networks (DNNs) have revolutionized a multitude of machine learning 
 `conda create -n name care python=3.8`
 
 `conda activate care && pip install -r requirements.txt`
+
+- install the pyg package following https://pytorch-geometric.readthedocs.io/en/latest/install/installation.html
 
 ### Installation and Running
 
@@ -70,10 +76,6 @@ If you find our work useful, please consider citing our [paper](https://arxiv.or
   organization={IEEE}
 }
 ```
-
-## Upcoming Features
-
-We are actively working on integrating CLIP as the knowledge sensor to further optimize our pipeline. This new feature is aimed at enhancing the robustness and scalability of the model. Stay tuned for this exciting update, which will be released soon!
 
 ## Contact
 

@@ -79,4 +79,4 @@ If you find our work useful, please consider citing our [paper](https://arxiv.or
 
 ## Contact
 
-If you have any questions or encounter any errors while running the code, feel free to contact [jiaweiz@illinois.edu](mailto:jiaweiz@illinois.edu)!
+If you have any questions or encounter any errors while running the code, feel free to contact [jiaweiz@illinois.edu](mailto:jiaweiz7@illinois.edu)!
